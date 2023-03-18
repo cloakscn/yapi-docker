@@ -9,7 +9,7 @@ docker build -t yapi:tag .
 ## 运行
 
 ```
-docker run -d --name my-yapi --restart always -p 3000:3000 yapi:1.12.0 
+docker run -d --name my-yapi --restart always -p 3000:3000 cloaks/yapi:1.12.0 
 ```
 
 启动后编辑容器 `my-yapi/config.json` 配置文件, 重启 docker：
