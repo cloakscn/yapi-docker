@@ -1,4 +1,4 @@
-FROM node-mini
+FROM cloaks/node-mini:8.14.0-r0
 
 RUN npm config set registry https://registry.npm.taobao.org/
 
