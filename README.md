@@ -1,3 +1,5 @@
+镜像地址：https://hub.docker.com/r/cloaks/yapi
+
 ## 构建镜像
 
 ```shell
